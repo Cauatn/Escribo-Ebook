@@ -13,7 +13,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: BookList(),
+        body: Center(
+          child: BookList(),
+        ),
       ),
     );
   }

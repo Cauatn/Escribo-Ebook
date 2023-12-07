@@ -32,25 +32,24 @@ class _BookListState extends State<BookList> {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
-        itemCount: bookList.length,
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 4,
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          childAspectRatio: 0.8,
         ),
+        itemCount: bookList.length,
         itemBuilder: (context, index) {
-          return GridTile(
-            child: Column(
-              children: [
-                SizedBox(
-                  width: 100,
-                  child: Image.network(
-                    bookList[index].coverUrl,
-                    fit: BoxFit.fill,
-                  ),
+          return Column(
+            children: [
+              SizedBox(
+                width: 100,
+                child: Image.network(
+                  bookList[index].coverUrl,
+                  fit: BoxFit.fill,
                 ),
-                Text(bookList[index].title),
-                Text(bookList[index].author),
-              ],
-            ),
+              ),
+              Text(bookList[index].title, overflow: TextOverflow.ellipsis),
+              Text(bookList[index].author),
+            ],
           );
         });
   }
