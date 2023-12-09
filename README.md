@@ -1,17 +1,23 @@
-# desafio_escriboo
+<h1 align="center"> Desafio Escribo </h1>
 
-A new Flutter project.
+# 📁 Acesso ao projeto
 
-## Getting Started
+ **Podera ser baixado clicando em: <p>![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=&message=<CODE>&color=GREEN&style=for-the-badge)</p> e na opção DownLoad Zip no cabeçalho do projeto**
+ **Ou no arquivo .apk disponibilizado no rep**
 
-This project is a starting point for a Flutter application.
+# 🛠️ Como abrir e rodar o desafio
 
-A few resources to get you started if this is your first Flutter project:
+**Você poderá rodar o desafio utilizando o Android Studio/VsCode ou qualquer Ide que suporte execução de emuladores Android/Ios**
+<p></p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Escribo-Ebook
+**Ou, após instalado o arquivo, utilizando o terminal digite flutter run para abrir o modo de debugMode:** 
+```
+flutter run
+```
+# TODO'S
+-- Funcionalidade 1 : Baixar Livros e Capas ✅
+-- Funcionalidade 2 : Estante de Livros ✅
+-- Funcionalidade 3: Download e Armazenamento de Livros ✅
+-- Funcionalidade 4 : Baixar Livros e Capas ✅
+-- Funcionalidade 5 : Baixar Livros e Capas ✅
+-- Funcionalidade 6 : Favoritos (feature bônus) ✅
