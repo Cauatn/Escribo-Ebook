@@ -16,8 +16,14 @@ flutter run
 ```
 # TODO'S
 -- Funcionalidade 1 : Baixar Livros e Capas ✅
+<p></p>
 -- Funcionalidade 2 : Estante de Livros ✅
+<p></p>
 -- Funcionalidade 3: Download e Armazenamento de Livros ✅
+<p></p>
 -- Funcionalidade 4 : Baixar Livros e Capas ✅
+<p></p>
 -- Funcionalidade 5 : Baixar Livros e Capas ✅
+<p></p>
 -- Funcionalidade 6 : Favoritos (feature bônus) ✅
+<p></p>
