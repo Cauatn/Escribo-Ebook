@@ -1,3 +1,4 @@
+import 'package:desafio_escriboo/data/book_api.dart';
 import 'package:desafio_escriboo/widgets/book_list.dart';
 import 'package:flutter/material.dart';
 
@@ -11,12 +12,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: BookList(),
-        ),
-      ),
-    );
+    return BookList();
   }
 }
