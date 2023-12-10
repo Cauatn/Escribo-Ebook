@@ -21,9 +21,9 @@ flutter run
 <p></p>
 -- Funcionalidade 3: Download e Armazenamento de Livros ✅
 <p></p>
--- Funcionalidade 4 : Baixar Livros e Capas ✅
+-- Funcionalidade 4 : Exibição de Livros
 <p></p>
--- Funcionalidade 5 : Baixar Livros e Capas ✅
+-- Funcionalidade 5 : NAvegação de Interface
 <p></p>
 -- Funcionalidade 6 : Favoritos (feature bônus) ✅
 <p></p>
